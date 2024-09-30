@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>zeyla</title>
+</head>
+<body>
+    <!-- HOME -->
+    <section id="home" class="home">
+        <header>
+            <a href="#" class="logo">
+                <span class="barra-logo">/</span>
+                <span class="texto">ZEYLA</span>
+            </a>
+            <div class="menu" onclick="verMenu()">
+                <span>MENU</span>
+                <div class="barras">
+                    <div class="linea efecto"></div>
+                    <div class="linea"></div>
+                    <div class="linea efecto"></div>
+                </div>
+            </div>
+            <!-- Menu desplegable -->
+            <nav id="nav" class="nav-menu">
+                    <a href="#home" onclick="cerrar()">Inicio</a>
+                    <a href="#portfolio" onclick="cerrar()" >Detalles Personales</a>
+                   <button onclick="cerrar()"><i class="fa-solid fa-xmark"></i></button>
+            </nav>
+        </header>
+        <div class="contenido">
+            <h1>Zeyla Michel <br>Achacollo Quispe</h1>
+            <p class="descripcion">0 <span class="color">/</span>0 <span class="color">/</span>0</p>
+
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-behance"></i></a>    
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="titulo-seccion headline load-hidden">Detalles Personales</h2>
+        <div class="fila">
+            <div class="col">
+                <div class="info">
+                    <h3 class="titulo-proyecto">SOBRE MI </h3>
+                    <p class="descripcion-proyecto">Hola, soy Zeyla Achacollo soy estudiante de Ingeniería de Sistemas estudio en la Facultad Nacional de Ingeniería (FNI), me interesa aprender cosas nuevas cada día y aunque me falta mucho por aprender me gustaría desarrollar aplicaciones móviles y páginas web.</p>
+                </div>
+                <img src="img/proyecto1.jpeg" alt="" class="img-proyecto">
+            </div>
+            <div class="col">
+                <div class="info">
+                    <h3 class="titulo-proyecto">DATOS PERSONALES</h3>
+                    <p class="descripcion-proyecto">Fecha de Nacimiento   30/09/2003</p>
+                    <P>Celular  67261156</P>
+                    <P>E-mail    achacollozeyla9@gmail.com</P>
+                    <P>Dirección   C/Augusto Beltran N° 614  y A. de Ibañez</P>
+                    <P>Ocupación   Estudiante</P>
+                    <P>Carrera Ingeniería de Sistemas </P>
+                </div>
+                <img src="img/proyecto2.jpeg" alt="" class="img-proyecto">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="info">
+                    <h3 class="titulo-proyecto">PASATIEMPOS</h3>
+                    <p class="descripcion-proyecto">Escuchar musica</p>
+                    <p>jugar video juegos</p>
+                </div>
+                <img src="img/proyecto3.jpeg" alt="" class="img-proyecto">
+            </div>
+            <div class="col">
+                <div class="info">
+                    <h3 class="titulo-proyecto">SKILLS</h3>
+                    <p class="descripcion-proyecto">Java 50%</p>
+                    <p>c++ 65%</p>
+                    <p>JavaScript 50%</p>
+                    <p>HTML-CSS 55%</p>
+                    <p>phyton 50%</p>
+                </div>
+                <img src="img/proyecto4.jpeg" alt="" class="img-proyecto">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="info">
+                    <h3 class="titulo-proyecto">CURRICULUM</h3>
+                    <p class="descripcion-proyecto">COLEGIO 2026-2021</p>
+                    <P>Estudie en el colegio Oscar Unzaga de la Vega</P>
+                    <p>FACULTAD</p>
+                    <P>Actualmente estudio en la facultad nacional de ingenieria</P>
+                </div>
+                <img src="img/proyecto5.jpeg" alt="" class="img-proyecto">
+            </div>
+            <div class="col">
+                <div class="info">
+                    <h3 class="titulo-proyecto">MIS PROYECTOS </h3>
+                    <p class="descripcion-proyecto">......</p>
+                </div>
+                <img src="img/proyecto6.jpeg" alt="" class="img-proyecto">
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
